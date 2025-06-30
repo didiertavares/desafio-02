@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <title>Hello, World!</title>
+    <style>
+        *   {
+            margin: 0px;
+        }
+        body{
+            background: lightgreen;
+            box-sizing: border-box;
+            min-height: 100vh;
+            border: 5px solid white;
+            padding: 30px;
+            display: grid;
+            place-content: center;    
+            color: darkgreen;            
+        }
+        section {
+            width: 300px;
+            min-height: 100%;
+            border: 3px solid darkgreen;
+            padding: 20px;
+            place-content: center;
+            background: white;
+            border-radius: 20px;
+            place-items: center;
+        }
+        h1{
+            font-family: 'Lucida Sans', sans-serif;
+            font-size: 50px;
+            font-style: italic;
+            
+        }
+        input{
+            width: 250px;
+            border-radius: 5px;
+            padding: 5px;
+            box-shadow: 3px 3px darkgreen;
+            
+        }
+        button  {
+            margin: 10px;
+            size: 30px;
+            font-size: 15px;
+        }
+
+    </style>
+</head>
+<body>
+    <section>
+        <h1>Olá, Mundo!</h1>
+        <input placeholder="digite sua mensagem">
+        <button onclick="displayAlert()">DISPLAY ALERT</button>
+
+    </section>
+<script src="script.js"></script>
+</body>
+</html>
